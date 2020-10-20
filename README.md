@@ -1,5 +1,5 @@
 # PAP coding app
-Code for creating a shiny app for coding textual observations into Policy Agendas Project.
+R Code for creating a shiny app for coding textual observations into Policy Agendas Project.
 The demo app in its final version can be viewed at https://freedmanguy.shinyapps.io/papcodingdemo/.
 
 ## App Features for Coders
