@@ -2,10 +2,11 @@ filename <- "demo.RDS"       # change according to the relevant filename
 user <- "[user]"             # change to the name of the coder
 shinyurl <- "papcodingdemo"  # change to the name of the app (affects url)
 
-if(!("xfun" %in% installed.packages())){
-  install.packages("xfun")
-}
-xfun::pkg_attach2(c("shiny","dplyr","rdrop2","DT","rvest"))
+library(shiny)
+library(dplyr)
+library(rdrop2)
+library(DT)
+library(rvest)
 
 mydatetime <- function(){
   temp <- read_html("https://www.timeanddate.com/worldclock/israel/jerusalem")
